@@ -38,6 +38,3 @@ RUN /etc/init.d/mysqld start & \
 
 EXPOSE 22 80 3306
 
-#CMD ["/usr/bin/mysqld_safe"]
-#ENTRYPOINT ["service mysqld start"]
-#CMD ["service mysqld start"]
